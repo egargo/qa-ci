@@ -2,6 +2,7 @@ use std::collections::BTreeMap;
 use env_logger::Env;
 use actix_web::{App, HttpServer, HttpResponse, Responder, get};
 
+// Comment
 
 #[get("/")]
 async fn index() -> impl Responder {
